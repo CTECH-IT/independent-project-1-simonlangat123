@@ -25,7 +25,7 @@ html, body {
 }
 
 body {
-  background: rgb(149, 194, 215);
+  background: linear-gradient(red, yellow, orange, green);
   display: flex;
   flex-direction: column;
   font-size: 10px;
@@ -54,7 +54,7 @@ a[href="#"] {
 }
 
 .detail-image {
-  width: 90%;
+  width: 100%;
 }
 
 .detail-image-container {
@@ -107,7 +107,7 @@ transition: transform 133ms ease-in-out;
 }
 .thumbnail-list {
   display: flex;
-  flex: 0 1 auto;
+  flex: 1 1 auto;
   justify-content: space-between;
   list-style: none;
   order: 2;
